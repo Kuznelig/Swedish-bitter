@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+    color: #303030;
+}
+.main-nav-list a {
+    color: #9A9A9A;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.hero h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+.quote p {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+.quote footer {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.fact h2 {
+    color: #A4C58C;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 55px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    text-underline-position: under;
+}
+.fact h3 {
+    font-size: 20px;
+    line-height: 35px;
+}
+.fact p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+.symptoms h2 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.symptoms-item {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.button {
+    background-color: #7EB252;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.gallery h2 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.footer-link {
+    color: #9A9A9A;
+    font-size: 12px;
+    line-height: 16px;
+}
+.main-footer h3 {
+    font-size: 12px;
+    line-height: 15px;
+}
+.footer-menu-item a {
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+.main-footer {
+    background-color: #F6F9F3;
+}
+
+
+
+
+
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin: 0;
+    margin-right: 60px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.search {
+    margin-left: auto;
+}
+.main-nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 760px;
+}
+.main-nav-item {
+    margin-right: 35px;
+}
