@@ -74,48 +74,59 @@
         </section>
         <section class="gallery">
             <h2>Состав</h2>
-            <img src="img/gallery-active-photo.jpg" width="740" height="740" alt="Рисунок растения">
-            <ul>
-                <li><img src="img/photo-1.jpg" width="170" height="170" alt="Рисунок растения"></li>
-                <li><img src="img/photo-2.jpg" width="170" height="170" alt="Рисунок растения"></li>
-                <li><img src="img/photo-3.jpg" width="170" height="170" alt="Рисунок растения"></li>
-                <li><img src="img/photo-4.jpg" width="170" height="170" alt="Рисунок растения"></li>
-            </ul>
+            <div class="gallery-wrapper">
+                <img class="active-img" src="img/gallery-active-photo.jpg" width="740" height="740" alt="Рисунок растения">
+                <ul class="img-list">
+                    <li class="preview-item"><img src="img/photo-1.jpg" width="170" height="170" alt="Рисунок растения"></li>
+                    <li class="preview-item"><img src="img/photo-2.jpg" width="170" height="170" alt="Рисунок растения"></li>
+                    <li class="preview-item"><img src="img/photo-3.jpg" width="170" height="170" alt="Рисунок растения"></li>
+                    <li class="preview-item"><img src="img/photo-4.jpg" width="170" height="170" alt="Рисунок растения"></li>
+                </ul>
+            </div>
+          
         </section>
     </main>
     <footer class="main-footer">
-        <p class="logo"><img src="img/logo.svg" width="197" height="29" alt="Логотип Swedish bitter"></p>
-        <a class="footer-link" href="#">Политика конфиденциальности</a>
-        <a class="footer-link" href="#">Согласие с рассылкой</a>
-        <ul class="footer-nav">
-            <li class="footer-nav-item">
-                <h3 class="footer-nav-title">О компании</h3>
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"><a href="#">Контакты и адреса</a></li>
-                    <li class="footer-menu-item"><a href="#">Вакансии</a></li>
-                    <li class="footer-menu-item"><a href="#">Гарантии</a></li>
-                    <li class="footer-menu-item"><a href="#">Сертификаты</a></li>
+        <div class="footer-wrapper">
+            <div class="logo-column">
+                <p class="logo"><img src="img/logo.svg" width="197" height="29" alt="Логотип Swedish bitter"></p>
+                <a class="footer-link" href="#">Политика конфиденциальности</a>
+                <a class="footer-link" href="#">Согласие с рассылкой</a>
+            </div>
+            <div class="nav-column">
+                <ul class="footer-nav">
+                    <li class="footer-nav-item">
+                        <h3 class="footer-nav-title">О компании</h3>
+                        <ul class="footer-menu">
+                            <li class="footer-menu-item"><a href="#">Контакты и адреса</a></li>
+                            <li class="footer-menu-item"><a href="#">Вакансии</a></li>
+                            <li class="footer-menu-item"><a href="#">Гарантии</a></li>
+                            <li class="footer-menu-item"><a href="#">Сертификаты</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-item">
+                        <h3 class="footer-nav-title">Корпоративным клиентам</h3>
+                        <ul class="footer-menu">
+                            <li class="footer-menu-item"><a href="#">Франшиза</a></li>
+                            <li class="footer-menu-item"><a href="#">Консультации</a></li>
+                            <li class="footer-menu-item"><a href="#">Инвесторам</a></li>
+                            <li class="footer-menu-item"><a href="#">Покупка и оплата</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-item">
+                        <h3 class="footer-nav-title">Популярные разделы</h3>
+                        <ul class="footer-menu">
+                            <li class="footer-menu-item"><a href="#">Новинки</a></li>
+                            <li class="footer-menu-item"><a href="#">Бестселлеры</a></li>
+                            <li class="footer-menu-item"><a href="#">Акции</a></li>
+                            <li class="footer-menu-item"><a href="#">Подарочная упаковка</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-            <li class="footer-nav-item">
-                <h3 class="footer-nav-title">Корпоративным клиентам</h3>
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"><a href="#">Франшиза</a></li>
-                    <li class="footer-menu-item"><a href="#">Консультации</a></li>
-                    <li class="footer-menu-item"><a href="#">Инвесторам</a></li>
-                    <li class="footer-menu-item"><a href="#">Покупка и оплата</a></li>
-                </ul>
-            </li>
-            <li class="footer-nav-item">
-                <h3 class="footer-nav-title">Популярные разделы</h3>
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"><a href="#">Новинки</a></li>
-                    <li class="footer-menu-item"><a href="#">Бестселлеры</a></li>
-                    <li class="footer-menu-item"><a href="#">Акции</a></li>
-                    <li class="footer-menu-item"><a href="#">Подарочная упаковка</a></li>
-                </ul>
-            </li>
-        </ul>
+            </div>
+            
+        </div>
+        
     </footer>
 </body>
 </html>
